@@ -1,0 +1,28 @@
+name: aegis_habit_rpg_mvp
+description: >-
+  A high-fidelity dark-themed Habit RPG mobile application focused on discipline,
+  consistency, self-control, and long-term personal growth across Execution and
+  Restraint habits.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqlite3: ^3.5.2
+  uuid: ^4.6.0
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
